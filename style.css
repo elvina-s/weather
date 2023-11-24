@@ -1,0 +1,217 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1587923623987-c7e4083beb23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#container {
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input {
+    border-radius: 20px;
+    border: 3px solid #CDF3A2;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#input:focus {
+    background-color: #fff;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#date {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature {
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#feelsLike {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#condition {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+#variation {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+  display: none;
+}
+
+@media all and (max-width: 600px) {
+    #header {
+        font-size: 28px;
+    }
+
+    #city {
+        font-size: 42px;
+    }
+
+    #date {
+        font-size: 22px;
+    }
+
+    #temperature {
+        font-size: 90px;
+    }
+
+    #feelsLike {
+        font-size: 28px;
+    }
+
+    #condition {
+        font-size: 30px;
+    }
+
+    #variation {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #header {
+        font-size: 26px;
+    }
+
+    #city {
+        font-size: 40px;
+    }
+
+    #date {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    #temperature {
+        font-size: 84px;
+    }
+
+    #feelsLike {
+        font-size: 24px;
+    }
+
+    #condition {
+        font-size: 24px;
+    }
+
+    #variation {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    #header {
+        font-size: 22px;
+    }
+
+    #city {
+        font-size: 38px;
+    }
+
+    #date {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    #temperature {
+        font-size: 78px;
+    }
+
+    #feelsLike {
+        font-size: 24px;
+    }
+
+    #condition {
+        font-size: 24px;
+    }
+
+    #variation {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    #header {
+        font-size: 20px;
+    }
+
+    #city {
+        font-size: 34px;
+    }
+
+    #date {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    #temperature {
+        font-size: 70px;
+    }
+
+    #feelsLike {
+        font-size: 22px;
+    }
+
+    #condition {
+        font-size: 22px;
+    }
+
+    #variation {
+        font-size: 22px;
+    }
+}
