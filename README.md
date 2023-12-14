@@ -6,7 +6,7 @@ It is a web application, which you can use to check weather details of any city 
 
 ## What is it made with?
 
-JavaScript, HTML, CSS, API.
+JavaScript, HTML, CSS. The current weather information is received thanks to API.
 
 ## Installation
 
