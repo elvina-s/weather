@@ -1,8 +1,9 @@
 # Weather
-
 ## About
 
 It is a web application, which you can use to check weather details of any city in the current time.
+
+<img width="1440" alt="Снимок экрана 2023-12-20 в 15 22 54" src="https://github.com/elvina-s/weather/assets/149134113/27f36cda-c6ae-479d-a592-1ea2ccb360f3">
 
 ## What is it made with?
 
